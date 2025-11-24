@@ -88,8 +88,7 @@ DATABASES = {
             'port': 27017,
             'username': '',
             'password': '',
-            'authSource': '',
-            'authMechanism': '',
+            # No authSource or authMechanism needed for local dev
         },
     }
 }
